@@ -1,5 +1,5 @@
 
-
+//inspired by Alexander Miller: https://www.youtube.com/watch?v=LaarVR1AOvs
 
 float t;
 
@@ -29,8 +29,6 @@ void setup() {
 
 void draw() {
   //draw translucent background so it slowly covers up the past
-  //background(255, 135, 0, 40);
-  //background(255, 255, 255, 2);
   noStroke();
   fill(255, 135, 0, 20);
   rect(0, 0, width, height);
@@ -44,6 +42,7 @@ void draw() {
 }
 
 void drawStuff() {
+  //draw a line between the individual points of two parametric functions
   line(x1(t), y1(t), x2(t), y2(t));
   t++;
 }
