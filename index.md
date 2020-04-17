@@ -16,6 +16,4 @@ of
 code
 ```
 
-[parametric](parametric)
 [parametric/parametric.pde](parametric/parametric.pde)
-[sketches/parametric/parametric.pde](sketches/parametric/parametric.pde)
