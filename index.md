@@ -17,3 +17,4 @@ code
 ```
 
 [parametric/parametric.pde](parametric/parametric.pde)
+[parametric/index.html](parametric/index.html)
