@@ -23,7 +23,7 @@ function y2(t) {
 var ww = 500;
 var hh = 500;
 
-function setup() {}
+function setup() {
     createCanvas(ww, hh)
     background(40)
 }
