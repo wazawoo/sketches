@@ -20,11 +20,8 @@ function y2(t) {
     return cos(t / 20) * 100;
 }
 
-var ww = 500;
-var hh = 500;
-
 function setup() {
-    createCanvas(ww, hh)
+    createCanvas(windowWidth, windowHeight)
     background(40)
 }
 
