@@ -1,4 +1,4 @@
 remote_theme: godalming123/minimal
 title: [p5.js sketches]
 description: [p5.js is a javascript framework for drawing stuff\, based on Processing]
-color-scheme: [auto-default-dark]
+color-scheme: ["auto-default-dark"]
