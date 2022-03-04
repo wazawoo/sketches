@@ -36,7 +36,7 @@ function draw() {
     rect(0, 0, width, height);
 
     stroke(255);
-    strokeWeight(3);
+    strokeWeight(0.01*width);
     translate(width / 2, height / 2);
     for (var i = 0; i < SPEED_MULTIPLIER; i++) {
         drawStuff(width, height);
