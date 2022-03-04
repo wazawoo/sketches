@@ -7,7 +7,7 @@
   - [sketch.js](parametric/sketch.js)
 
 
-<div style="position:relative;padding-bottom:100%;">
-  <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" src="https://wazawoo.github.io/sketches/parametric/index.html" frameborder="0" width="100%" height="100%">
+<div class="container">
+  <iframe class="responsive-iframe" src="https://wazawoo.github.io/sketches/parametric/index.html">
   </iframe>
 </div>
