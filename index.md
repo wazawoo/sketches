@@ -1,4 +1,4 @@
-# p5 JS Sketches
+# p5.js Sketches
 
 ## First Sketch
 - Inspired by [Alexander Miller](https://www.youtube.com/channel/UCWVoEDrorKeqKu3nzp1dlBw)'s awesome video: [Recreating Vintage Computer Art with Processing](https://www.youtube.com/watch?v=LaarVR1AOvs)
