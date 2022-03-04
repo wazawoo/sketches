@@ -1,20 +1,9 @@
-# This is a test
-## Heading 2
-### Heading 3
+# p5 JS Sketches
 
-1. one
-2. two
-3. three
+## First Sketch
+- Inspired by [Alexander Miller](https://www.youtube.com/channel/UCWVoEDrorKeqKu3nzp1dlBw)'s awesome video: [Recreating Vintage Computer Art with Processing](https://www.youtube.com/watch?v=LaarVR1AOvs)
+- Code
+  - [parametric.pde](parametric/parametric.pde)
+  - [sketch.js](parametric/sketch.js)
 
-`code`
-
-```
-a
-larger
-section
-of
-code
-```
-
-[parametric/parametric.pde](parametric/parametric.pde)
-[parametric/index.html](parametric/index.html)
+<iframe src="wazawoo.github.io/sketches/parametric/index.html" height="600px" width="100%" style="border:none;"></iframe>
