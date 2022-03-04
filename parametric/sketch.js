@@ -4,20 +4,20 @@ var t = 0;
 
 var SPEED_MULTIPLIER = 1;
 
-function x1(t) {
-    return sin(t / 10) * 100;
+function x1(t, w, h) {
+    return sin(t / 10) * (w/4);
 }
 
-function y1(t) {
-    return cos(t / 10) * 100;
+function y1(t, w, h) {
+    return cos(t / 10) * (w/4);
 }
 
-function x2(t) {
-    return sin(t / 20) * 100;
+function x2(t, w, h) {
+    return sin(t / 20) * (w/4);
 }
 
-function y2(t) {
-    return cos(t / 20) * 100;
+function y2(t, w, h) {
+    return cos(t / 20) * (w/4);
 }
 
 function setup() {
@@ -39,12 +39,17 @@ function draw() {
     strokeWeight(3);
     translate(width / 2, height / 2);
     for (var i = 0; i < SPEED_MULTIPLIER; i++) {
-        drawStuff();
+        drawStuff(width, height);
     }
 }
 
-function drawStuff() {
+function drawStuff(w, h) {
     //draw a line between the individual points of two parametric functions
-    line(x1(t), y1(t), x2(t), y2(t));
+    line(
+      x1(t, w, h),
+      y1(t, w, h),
+      x2(t, w, h),
+      y2(t, w, h)
+    );
     t++;
 }
