@@ -8,6 +8,6 @@
 
 
 <div style="position:relative;padding-bottom:100%;">
-  <iframe src="https://wazawoo.github.io/sketches/parametric/index.html" frameborder="0" width="100%" height="100%"></iframe>
-  <style>
+  <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;" src="https://wazawoo.github.io/sketches/parametric/index.html" frameborder="0" width="100%" height="100%">
+  </iframe>
 </div>
