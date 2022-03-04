@@ -25,6 +25,10 @@ function setup() {
     background(40)
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
     //draw translucent background so it slowly covers up the past
     noStroke();
