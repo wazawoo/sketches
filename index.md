@@ -6,4 +6,8 @@
   - [parametric.pde](parametric/parametric.pde)
   - [sketch.js](parametric/sketch.js)
 
-<iframe src="https://wazawoo.github.io/sketches/parametric/index.html" width="100%" height="100%" frameborder="0" ></iframe>
+
+<div style="position:relative;padding-bottom:100%;">
+  <iframe src="https://wazawoo.github.io/sketches/parametric/index.html" frameborder="0" width="100%" height="100%"></iframe>
+  <style>
+</div>
