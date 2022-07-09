@@ -12,6 +12,8 @@
   </iframe>
 </div>
 
+---
+
 ## Voronoi (slow)
 - Slowly paints a [Voronoi diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
 - Code
