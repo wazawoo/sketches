@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+main, canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+    image-rendering: pixelated; // optional but useful
+} */
