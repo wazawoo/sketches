@@ -1,8 +1,7 @@
-const SIZE = 400;
 let points;
 
 function setup() {
-  createCanvas(SIZE, SIZE);
+  createCanvas(windowWidth, windowHeight)
   
   points = generatePoints(20);
   
@@ -15,8 +14,8 @@ function setup() {
 
 function draw() {
   
-  let x = random(SIZE);
-  let y = random(SIZE);
+  let x = random(width);
+  let y = random(height);
   let minDist = Number.MAX_SAFE_INTEGER
   let minIndex = 0
   
@@ -35,6 +34,10 @@ function draw() {
   point(x, y);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function generatePoints(n) {
   return Array.from({length: n}, () => new Point());
 }
@@ -42,7 +45,7 @@ function generatePoints(n) {
 class Point {
   constructor() {
     this.x = Math.floor(random(width));
-    this.y = Math.floor(random(width));
+    this.y = Math.floor(random(height));
     this.r = random(0xFF+1);
     this.g = random(0xFF+1);
     this.b = random(0xFF+1);
