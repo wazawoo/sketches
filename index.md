@@ -3,8 +3,8 @@
 ## First Sketch
 - Inspired by [Alexander Miller](https://www.youtube.com/channel/UCWVoEDrorKeqKu3nzp1dlBw)'s awesome video: [Recreating Vintage Computer Art with Processing](https://www.youtube.com/watch?v=LaarVR1AOvs)
 - Code
-  - [parametric.pde](parametric/parametric.pde)
-  - [sketch.js](parametric/sketch.js)
+  - [parametric.pde](sketches/parametric/parametric.pde)
+  - [sketch.js](sketches/parametric/sketch.js)
 
 
 <div class="container">

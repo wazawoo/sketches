@@ -1,5 +1,10 @@
 //inspired by Alexander Miller: https://www.youtube.com/watch?v=LaarVR1AOvs
 
+//try out tapping interaction!!
+//or, do that with the next one
+//could slowly change center to tap location
+//could also slow down and reverse direction when center changes
+
 var t = 0;
 
 var SPEED_MULTIPLIER = 1;
