@@ -8,7 +8,7 @@
 
 
 <div class="container">
-  <iframe class="responsive-iframe" src="https://wazawoo.github.io/sketches/parametric/index.html" frameborder="0" width="100%" height="100%">
+  <iframe class="responsive-iframe" src="https://wazawoo.github.io/sketches/sketches/parametric/index.html" frameborder="0" width="100%" height="100%">
   </iframe>
 </div>
 
@@ -19,6 +19,6 @@
 
 
 <div class="container">
-  <iframe class="responsive-iframe" src="https://wazawoo.github.io/sketches/voronoi_slow/index.html" frameborder="0" width="100%" height="100%">
+  <iframe class="responsive-iframe" src="https://wazawoo.github.io/sketches/sketches/voronoi_slow/index.html" frameborder="0" width="100%" height="100%">
   </iframe>
 </div>
